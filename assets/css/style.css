@@ -1,0 +1,151 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+nav ul a,
+nav .brand-logo {
+  color: #26a69a;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: -webkit-fill-available;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #containerFormConnextion {
+    padding: 5em 0em !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.noMarge {
+  margin: 0.1em;
+}
+
+
+/* NAV */
+
+.typoLogo {
+  font-family: 'Kaushan Script', cursive !important;
+}
+
+#logo-container {
+  font-size: 3em;
+}
+
+.disabledLi {
+  color: #555 !important;
+}
+
+.disabledLi:hover {
+  color: #fc8383 !important;
+}
+
+.disabledLi:active {
+  color: #fc8383 !important;
+}
+
+/* HOME */
+
+.homeFond {
+  background: rgba(255, 255, 255, 0.70);
+  color: #000;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+ 
+
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  } 
+
+
+/* connexion */
+
+#containerFormConnextion {
+  padding: 5em;
+  background: url("https://picsum.photos/g/1920/1080/?random&blur");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
+
+.fondForm {
+  background: #f7f7f7;
+  padding: 2.5em !important;
+  border-radius: 25px;
+}
+
+
+#profil {
+  background: #ececec;
+  padding: 1em 0em;
+}
+
+#profil .typoLogo {
+  font-size: 5vw;
+}
+
+#profil .typoLogo:before {
+  content: "- "
+}
+
+#profil .typoLogo:after {
+  content: " ~"
+}
