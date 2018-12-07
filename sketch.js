@@ -54,11 +54,11 @@ function draw()
 		strokeWeight(10)
 		line(y-og-10, d-j-10, y-og+10, d-j+10);
 		strokeWeight(10)
-		line(y-og+10, d-j+10, y-og+10, d-j-10);
+		line(y-og-10, d-j+10, y-og+10, d-j-10);
 		strokeWeight(10)		
 		line(y+od-10, d-j-10, y+od+10, d-j+10);
 		strokeWeight(10)
-		line(y+od+10, d-j+10, y+od+10, d-j-10);	
+		line(y+od-10, d-j+10, y+od+10, d-j-10);	
 	}
 	fill(255, 0, 0);
 	strokeWeight(1)
