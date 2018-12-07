@@ -34,35 +34,6 @@
   	});
 
 
-
-
-
-
-	function dieCookie() {
-    	// instanceMenu.destroy();
-    	document.getElementById('delForDieCookie').innerHTML = "";
-    }
-
-  	document.addEventListener('DOMContentLoaded', function() {
-    	var elems = document.querySelectorAll('.tap-target');
-    	var instances = M.TapTarget.init(elems, {onClose : dieCookie()});
-  	});
-  
-
-    var instanceMenu = M.TapTarget.getInstance(document.getElementById('menuOpen'));
-    
-    <?php
-    	if (isset($_SESSION['user'])) {
-    		echo "dieCookie();";
-    	}
-    	else {
-			echo "instanceMenu.open();";
-    	}
-    ?>
-
-
-    
-
 	$(document).ready(function() {
 		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
 			var page = $(this).attr('href'); // Page cible

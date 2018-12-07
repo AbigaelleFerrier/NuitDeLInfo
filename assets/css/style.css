@@ -9,7 +9,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #26a69a;
+  color: #a0d108;
 }
 
 p {
@@ -69,7 +69,7 @@ footer.page-footer {
 /* NAV */
 
 .typoLogo {
-  font-family: 'Kaushan Script', cursive !important;
+  font-family: 'Fjalla One', sans-serif !important;
 }
 
 #logo-container {
@@ -148,4 +148,27 @@ footer.page-footer {
 
 #profil .typoLogo:after {
   content: " ~"
+}
+
+.chartT {
+  letter-spacing: -0.15vw;
+  font-weight: 900;
+  font-size: 1vw;
+  margin-bottom: 2vw;
+}
+
+.charTpr {
+  letter-spacing: 0vw;
+  font-weight: 500;
+}
+
+.chartT h4 {
+  letter-spacing: 0vw;
+  font-weight: 500;
+}
+
+.chartT p {
+  font-size: 0.7vw;
+  letter-spacing: 0vw;
+  font-weight: 200;
 }
