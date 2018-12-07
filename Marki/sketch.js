@@ -9,6 +9,12 @@ var vitesse = 9;
 var direction = 1;
 var timer = 0;
 var nieu = true;
+var img;
+function preload() 
+{
+	
+	img = loadImage("desert.jpg");
+}
 function setup() 
 {
 	createCanvas(1200, 1200);
@@ -39,7 +45,7 @@ function draw()
 		
 	}
 	///////////////////////////////////////
-	background(255);
+	image(img, 0, 0);
 	fill(0, 255, 0); 
 	ellipse(y, d, 150, 150);
 	if(nieu)
@@ -153,5 +159,6 @@ function draw()
 			timer += 1;
 		}
 	}
+
 
 }
